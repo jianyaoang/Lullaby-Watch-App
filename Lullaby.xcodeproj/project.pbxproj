@@ -20,6 +20,7 @@
 		3BCBB5471B23DF2D00420081 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5451B23DF2D00420081 /* Interface.storyboard */; };
 		3BCBB5491B23DF2D00420081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5481B23DF2D00420081 /* Images.xcassets */; };
 		3BCBB54C1B23DF2D00420081 /* Lullaby WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3BCBB5341B23DF2D00420081 /* Lullaby WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3BCBB5551B23F4C900420081 /* LullabySettingInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB5541B23F4C900420081 /* LullabySettingInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		3BCBB5441B23DF2D00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BCBB5461B23DF2D00420081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		3BCBB5481B23DF2D00420081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BCBB5541B23F4C900420081 /* LullabySettingInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LullabySettingInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				3BCBB5381B23DF2D00420081 /* InterfaceController.swift */,
+				3BCBB5541B23F4C900420081 /* LullabySettingInterfaceController.swift */,
 				3BCBB53A1B23DF2D00420081 /* Images.xcassets */,
 				3BCBB5361B23DF2D00420081 /* Supporting Files */,
 			);
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCBB5551B23F4C900420081 /* LullabySettingInterfaceController.swift in Sources */,
 				3BCBB5391B23DF2D00420081 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
