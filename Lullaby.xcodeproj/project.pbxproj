@@ -14,6 +14,12 @@
 		3BCBB5181B23DF1F00420081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5171B23DF1F00420081 /* Images.xcassets */; };
 		3BCBB51B1B23DF1F00420081 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5191B23DF1F00420081 /* LaunchScreen.xib */; };
 		3BCBB5271B23DF1F00420081 /* LullabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB5261B23DF1F00420081 /* LullabyTests.swift */; };
+		3BCBB5391B23DF2D00420081 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB5381B23DF2D00420081 /* InterfaceController.swift */; };
+		3BCBB53B1B23DF2D00420081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB53A1B23DF2D00420081 /* Images.xcassets */; };
+		3BCBB53F1B23DF2D00420081 /* Lullaby WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB53E1B23DF2D00420081 /* Lullaby WatchKit App.app */; };
+		3BCBB5471B23DF2D00420081 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5451B23DF2D00420081 /* Interface.storyboard */; };
+		3BCBB5491B23DF2D00420081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5481B23DF2D00420081 /* Images.xcassets */; };
+		3BCBB54C1B23DF2D00420081 /* Lullaby WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3BCBB5341B23DF2D00420081 /* Lullaby WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,35 @@
 			remoteGlobalIDString = 3BCBB5071B23DF1E00420081;
 			remoteInfo = Lullaby;
 		};
+		3BCBB5401B23DF2D00420081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BCBB5001B23DF1E00420081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BCBB53D1B23DF2D00420081;
+			remoteInfo = "Lullaby WatchKit App";
+		};
+		3BCBB54A1B23DF2D00420081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BCBB5001B23DF1E00420081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BCBB5331B23DF2D00420081;
+			remoteInfo = "Lullaby WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BCBB5531B23DF2D00420081 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3BCBB54C1B23DF2D00420081 /* Lullaby WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3BCBB5081B23DF1E00420081 /* Lullaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lullaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +72,14 @@
 		3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCBB5251B23DF1F00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BCBB5261B23DF1F00420081 /* LullabyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LullabyTests.swift; sourceTree = "<group>"; };
+		3BCBB5341B23DF2D00420081 /* Lullaby WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lullaby WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCBB5371B23DF2D00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCBB5381B23DF2D00420081 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3BCBB53A1B23DF2D00420081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BCBB53E1B23DF2D00420081 /* Lullaby WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lullaby WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCBB5441B23DF2D00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCBB5461B23DF2D00420081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3BCBB5481B23DF2D00420081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BCBB5311B23DF2D00420081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +112,8 @@
 			children = (
 				3BCBB50A1B23DF1E00420081 /* Lullaby */,
 				3BCBB5231B23DF1F00420081 /* LullabyTests */,
+				3BCBB5351B23DF2D00420081 /* Lullaby WatchKit Extension */,
+				3BCBB5421B23DF2D00420081 /* Lullaby WatchKit App */,
 				3BCBB5091B23DF1E00420081 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +123,8 @@
 			children = (
 				3BCBB5081B23DF1E00420081 /* Lullaby.app */,
 				3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */,
+				3BCBB5341B23DF2D00420081 /* Lullaby WatchKit Extension.appex */,
+				3BCBB53E1B23DF2D00420081 /* Lullaby WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +168,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3BCBB5351B23DF2D00420081 /* Lullaby WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5381B23DF2D00420081 /* InterfaceController.swift */,
+				3BCBB53A1B23DF2D00420081 /* Images.xcassets */,
+				3BCBB5361B23DF2D00420081 /* Supporting Files */,
+			);
+			path = "Lullaby WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3BCBB5361B23DF2D00420081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5371B23DF2D00420081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BCBB5421B23DF2D00420081 /* Lullaby WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5451B23DF2D00420081 /* Interface.storyboard */,
+				3BCBB5481B23DF2D00420081 /* Images.xcassets */,
+				3BCBB5431B23DF2D00420081 /* Supporting Files */,
+			);
+			path = "Lullaby WatchKit App";
+			sourceTree = "<group>";
+		};
+		3BCBB5431B23DF2D00420081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5441B23DF2D00420081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +214,12 @@
 				3BCBB5041B23DF1E00420081 /* Sources */,
 				3BCBB5051B23DF1E00420081 /* Frameworks */,
 				3BCBB5061B23DF1E00420081 /* Resources */,
+				3BCBB5531B23DF2D00420081 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3BCBB54B1B23DF2D00420081 /* PBXTargetDependency */,
 			);
 			name = Lullaby;
 			productName = Lullaby;
@@ -153,6 +244,39 @@
 			productReference = 3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3BCBB5331B23DF2D00420081 /* Lullaby WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCBB5501B23DF2D00420081 /* Build configuration list for PBXNativeTarget "Lullaby WatchKit Extension" */;
+			buildPhases = (
+				3BCBB5301B23DF2D00420081 /* Sources */,
+				3BCBB5311B23DF2D00420081 /* Frameworks */,
+				3BCBB5321B23DF2D00420081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BCBB5411B23DF2D00420081 /* PBXTargetDependency */,
+			);
+			name = "Lullaby WatchKit Extension";
+			productName = "Lullaby WatchKit Extension";
+			productReference = 3BCBB5341B23DF2D00420081 /* Lullaby WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3BCBB53D1B23DF2D00420081 /* Lullaby WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCBB54D1B23DF2D00420081 /* Build configuration list for PBXNativeTarget "Lullaby WatchKit App" */;
+			buildPhases = (
+				3BCBB53C1B23DF2D00420081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lullaby WatchKit App";
+			productName = "Lullaby WatchKit App";
+			productReference = 3BCBB53E1B23DF2D00420081 /* Lullaby WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +292,12 @@
 					3BCBB51F1B23DF1F00420081 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 3BCBB5071B23DF1E00420081;
+					};
+					3BCBB5331B23DF2D00420081 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3BCBB53D1B23DF2D00420081 = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -186,6 +316,8 @@
 			targets = (
 				3BCBB5071B23DF1E00420081 /* Lullaby */,
 				3BCBB51F1B23DF1F00420081 /* LullabyTests */,
+				3BCBB5331B23DF2D00420081 /* Lullaby WatchKit Extension */,
+				3BCBB53D1B23DF2D00420081 /* Lullaby WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +337,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCBB5321B23DF2D00420081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB53F1B23DF2D00420081 /* Lullaby WatchKit App.app in Resources */,
+				3BCBB53B1B23DF2D00420081 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCBB53C1B23DF2D00420081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB5471B23DF2D00420081 /* Interface.storyboard in Resources */,
+				3BCBB5491B23DF2D00420081 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +379,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BCBB5301B23DF2D00420081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB5391B23DF2D00420081 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +394,16 @@
 			isa = PBXTargetDependency;
 			target = 3BCBB5071B23DF1E00420081 /* Lullaby */;
 			targetProxy = 3BCBB5211B23DF1F00420081 /* PBXContainerItemProxy */;
+		};
+		3BCBB5411B23DF2D00420081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BCBB53D1B23DF2D00420081 /* Lullaby WatchKit App */;
+			targetProxy = 3BCBB5401B23DF2D00420081 /* PBXContainerItemProxy */;
+		};
+		3BCBB54B1B23DF2D00420081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BCBB5331B23DF2D00420081 /* Lullaby WatchKit Extension */;
+			targetProxy = 3BCBB54A1B23DF2D00420081 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +422,14 @@
 				3BCBB51A1B23DF1F00420081 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3BCBB5451B23DF2D00420081 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCBB5461B23DF2D00420081 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,6 +570,62 @@
 			};
 			name = Release;
 		};
+		3BCBB54E1B23DF2D00420081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Lullaby_WatchKit_Extension;
+				INFOPLIST_FILE = "Lullaby WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3BCBB54F1B23DF2D00420081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Lullaby_WatchKit_Extension;
+				INFOPLIST_FILE = "Lullaby WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3BCBB5511B23DF2D00420081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lullaby WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3BCBB5521B23DF2D00420081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lullaby WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +651,22 @@
 			buildConfigurations = (
 				3BCBB52E1B23DF1F00420081 /* Debug */,
 				3BCBB52F1B23DF1F00420081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BCBB54D1B23DF2D00420081 /* Build configuration list for PBXNativeTarget "Lullaby WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCBB54E1B23DF2D00420081 /* Debug */,
+				3BCBB54F1B23DF2D00420081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BCBB5501B23DF2D00420081 /* Build configuration list for PBXNativeTarget "Lullaby WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCBB5511B23DF2D00420081 /* Debug */,
+				3BCBB5521B23DF2D00420081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

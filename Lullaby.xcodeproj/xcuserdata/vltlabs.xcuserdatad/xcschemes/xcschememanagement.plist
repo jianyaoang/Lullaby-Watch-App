@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Lullaby WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Lullaby.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>3BCBB51F1B23DF1F00420081</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3BCBB53D1B23DF2D00420081</key>
 		<dict>
 			<key>primary</key>
 			<true/>

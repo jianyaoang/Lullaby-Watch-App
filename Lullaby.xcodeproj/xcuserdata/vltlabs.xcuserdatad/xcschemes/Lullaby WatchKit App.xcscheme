@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BCBB5071B23DF1E00420081"
-               BuildableName = "Lullaby.app"
-               BlueprintName = "Lullaby"
+               BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+               BuildableName = "Lullaby WatchKit App.app"
+               BlueprintName = "Lullaby WatchKit App"
                ReferencedContainer = "container:Lullaby.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BCBB51F1B23DF1F00420081"
-               BuildableName = "LullabyTests.xctest"
-               BlueprintName = "LullabyTests"
+               BlueprintIdentifier = "3BCBB5331B23DF2D00420081"
+               BuildableName = "Lullaby WatchKit Extension.appex"
+               BlueprintName = "Lullaby WatchKit Extension"
+               ReferencedContainer = "container:Lullaby.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BCBB5071B23DF1E00420081"
+               BuildableName = "Lullaby.app"
+               BlueprintName = "Lullaby"
                ReferencedContainer = "container:Lullaby.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BCBB51F1B23DF1F00420081"
-               BuildableName = "LullabyTests.xctest"
-               BlueprintName = "LullabyTests"
-               ReferencedContainer = "container:Lullaby.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BCBB5071B23DF1E00420081"
-            BuildableName = "Lullaby.app"
-            BlueprintName = "Lullaby"
+            BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+            BuildableName = "Lullaby WatchKit App.app"
+            BlueprintName = "Lullaby WatchKit App"
             ReferencedContainer = "container:Lullaby.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Lullaby">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BCBB5071B23DF1E00420081"
-            BuildableName = "Lullaby.app"
-            BlueprintName = "Lullaby"
+            BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+            BuildableName = "Lullaby WatchKit App.app"
+            BlueprintName = "Lullaby WatchKit App"
             ReferencedContainer = "container:Lullaby.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+            BuildableName = "Lullaby WatchKit App.app"
+            BlueprintName = "Lullaby WatchKit App"
+            ReferencedContainer = "container:Lullaby.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Lullaby">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BCBB5071B23DF1E00420081"
-            BuildableName = "Lullaby.app"
-            BlueprintName = "Lullaby"
+            BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+            BuildableName = "Lullaby WatchKit App.app"
+            BlueprintName = "Lullaby WatchKit App"
             ReferencedContainer = "container:Lullaby.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3BCBB53D1B23DF2D00420081"
+            BuildableName = "Lullaby WatchKit App.app"
+            BlueprintName = "Lullaby WatchKit App"
+            ReferencedContainer = "container:Lullaby.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
