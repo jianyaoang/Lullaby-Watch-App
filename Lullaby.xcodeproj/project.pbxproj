@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BCBB50E1B23DF1E00420081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB50D1B23DF1E00420081 /* AppDelegate.swift */; };
+		3BCBB5111B23DF1E00420081 /* Lullaby.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB50F1B23DF1E00420081 /* Lullaby.xcdatamodeld */; };
+		3BCBB5131B23DF1E00420081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB5121B23DF1E00420081 /* ViewController.swift */; };
+		3BCBB5161B23DF1E00420081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5141B23DF1E00420081 /* Main.storyboard */; };
+		3BCBB5181B23DF1F00420081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5171B23DF1F00420081 /* Images.xcassets */; };
+		3BCBB51B1B23DF1F00420081 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BCBB5191B23DF1F00420081 /* LaunchScreen.xib */; };
+		3BCBB5271B23DF1F00420081 /* LullabyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCBB5261B23DF1F00420081 /* LullabyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BCBB5211B23DF1F00420081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BCBB5001B23DF1E00420081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BCBB5071B23DF1E00420081;
+			remoteInfo = Lullaby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BCBB5081B23DF1E00420081 /* Lullaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lullaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCBB50C1B23DF1E00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCBB50D1B23DF1E00420081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BCBB5101B23DF1E00420081 /* Lullaby.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lullaby.xcdatamodel; sourceTree = "<group>"; };
+		3BCBB5121B23DF1E00420081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BCBB5151B23DF1E00420081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BCBB5171B23DF1F00420081 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BCBB51A1B23DF1F00420081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LullabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCBB5251B23DF1F00420081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCBB5261B23DF1F00420081 /* LullabyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LullabyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BCBB5051B23DF1E00420081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCBB51D1B23DF1F00420081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BCBB4FF1B23DF1E00420081 = {
+			isa = PBXGroup;
+			children = (
+				3BCBB50A1B23DF1E00420081 /* Lullaby */,
+				3BCBB5231B23DF1F00420081 /* LullabyTests */,
+				3BCBB5091B23DF1E00420081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BCBB5091B23DF1E00420081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5081B23DF1E00420081 /* Lullaby.app */,
+				3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BCBB50A1B23DF1E00420081 /* Lullaby */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB50D1B23DF1E00420081 /* AppDelegate.swift */,
+				3BCBB5121B23DF1E00420081 /* ViewController.swift */,
+				3BCBB5141B23DF1E00420081 /* Main.storyboard */,
+				3BCBB5171B23DF1F00420081 /* Images.xcassets */,
+				3BCBB5191B23DF1F00420081 /* LaunchScreen.xib */,
+				3BCBB50F1B23DF1E00420081 /* Lullaby.xcdatamodeld */,
+				3BCBB50B1B23DF1E00420081 /* Supporting Files */,
+			);
+			path = Lullaby;
+			sourceTree = "<group>";
+		};
+		3BCBB50B1B23DF1E00420081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB50C1B23DF1E00420081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BCBB5231B23DF1F00420081 /* LullabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5261B23DF1F00420081 /* LullabyTests.swift */,
+				3BCBB5241B23DF1F00420081 /* Supporting Files */,
+			);
+			path = LullabyTests;
+			sourceTree = "<group>";
+		};
+		3BCBB5241B23DF1F00420081 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BCBB5251B23DF1F00420081 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BCBB5071B23DF1E00420081 /* Lullaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCBB52A1B23DF1F00420081 /* Build configuration list for PBXNativeTarget "Lullaby" */;
+			buildPhases = (
+				3BCBB5041B23DF1E00420081 /* Sources */,
+				3BCBB5051B23DF1E00420081 /* Frameworks */,
+				3BCBB5061B23DF1E00420081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lullaby;
+			productName = Lullaby;
+			productReference = 3BCBB5081B23DF1E00420081 /* Lullaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BCBB51F1B23DF1F00420081 /* LullabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BCBB52D1B23DF1F00420081 /* Build configuration list for PBXNativeTarget "LullabyTests" */;
+			buildPhases = (
+				3BCBB51C1B23DF1F00420081 /* Sources */,
+				3BCBB51D1B23DF1F00420081 /* Frameworks */,
+				3BCBB51E1B23DF1F00420081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BCBB5221B23DF1F00420081 /* PBXTargetDependency */,
+			);
+			name = LullabyTests;
+			productName = LullabyTests;
+			productReference = 3BCBB5201B23DF1F00420081 /* LullabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BCBB5001B23DF1E00420081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jay Ang";
+				TargetAttributes = {
+					3BCBB5071B23DF1E00420081 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3BCBB51F1B23DF1F00420081 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3BCBB5071B23DF1E00420081;
+					};
+				};
+			};
+			buildConfigurationList = 3BCBB5031B23DF1E00420081 /* Build configuration list for PBXProject "Lullaby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BCBB4FF1B23DF1E00420081;
+			productRefGroup = 3BCBB5091B23DF1E00420081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BCBB5071B23DF1E00420081 /* Lullaby */,
+				3BCBB51F1B23DF1F00420081 /* LullabyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BCBB5061B23DF1E00420081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB5161B23DF1E00420081 /* Main.storyboard in Resources */,
+				3BCBB51B1B23DF1F00420081 /* LaunchScreen.xib in Resources */,
+				3BCBB5181B23DF1F00420081 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCBB51E1B23DF1F00420081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BCBB5041B23DF1E00420081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB5131B23DF1E00420081 /* ViewController.swift in Sources */,
+				3BCBB50E1B23DF1E00420081 /* AppDelegate.swift in Sources */,
+				3BCBB5111B23DF1E00420081 /* Lullaby.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BCBB51C1B23DF1F00420081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCBB5271B23DF1F00420081 /* LullabyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BCBB5221B23DF1F00420081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BCBB5071B23DF1E00420081 /* Lullaby */;
+			targetProxy = 3BCBB5211B23DF1F00420081 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BCBB5141B23DF1E00420081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCBB5151B23DF1E00420081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BCBB5191B23DF1F00420081 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCBB51A1B23DF1F00420081 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BCBB5281B23DF1F00420081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BCBB5291B23DF1F00420081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BCBB52B1B23DF1F00420081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lullaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BCBB52C1B23DF1F00420081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lullaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BCBB52E1B23DF1F00420081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LullabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lullaby.app/Lullaby";
+			};
+			name = Debug;
+		};
+		3BCBB52F1B23DF1F00420081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LullabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lullaby.app/Lullaby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BCBB5031B23DF1E00420081 /* Build configuration list for PBXProject "Lullaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCBB5281B23DF1F00420081 /* Debug */,
+				3BCBB5291B23DF1F00420081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BCBB52A1B23DF1F00420081 /* Build configuration list for PBXNativeTarget "Lullaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCBB52B1B23DF1F00420081 /* Debug */,
+				3BCBB52C1B23DF1F00420081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BCBB52D1B23DF1F00420081 /* Build configuration list for PBXNativeTarget "LullabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCBB52E1B23DF1F00420081 /* Debug */,
+				3BCBB52F1B23DF1F00420081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BCBB50F1B23DF1E00420081 /* Lullaby.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BCBB5101B23DF1E00420081 /* Lullaby.xcdatamodel */,
+			);
+			currentVersion = 3BCBB5101B23DF1E00420081 /* Lullaby.xcdatamodel */;
+			path = Lullaby.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BCBB5001B23DF1E00420081 /* Project object */;
+}
