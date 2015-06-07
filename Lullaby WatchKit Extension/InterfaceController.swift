@@ -17,12 +17,13 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        creatingTimerCountdown()
+
     }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        creatingTimerCountdown()
     }
 
     override func didDeactivate() {
@@ -32,8 +33,18 @@ class InterfaceController: WKInterfaceController {
 
     func creatingTimerCountdown() {
         
-        var lullabyHour = 10
-        var lullabyMinute = 42
+        if NSUserDefaults.standardUserDefaults().objectForKey("hour") == nil {
+            NSUserDefaults.standardUserDefaults().setObject(22, forKey: "hour")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        if NSUserDefaults.standardUserDefaults().objectForKey("minute") == nil {
+            NSUserDefaults.standardUserDefaults().setObject(00, forKey: "minute")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        var lullabyHour =  NSUserDefaults.standardUserDefaults().objectForKey("hour") as! Int
+        var lullabyMinute =  NSUserDefaults.standardUserDefaults().objectForKey("minute") as! Int
     
         var now = NSDate()
         var calendar = NSCalendar.currentCalendar()
@@ -54,6 +65,11 @@ class InterfaceController: WKInterfaceController {
         
         self.countdownTimer.setDate(lullabyTime!)
         self.countdownTimer.start()
+    }
+    
+    
+    @IBAction func onMenuItemPressed() {
+        self.presentControllerWithName("LullabySetting", context: nil)
     }
     
 }

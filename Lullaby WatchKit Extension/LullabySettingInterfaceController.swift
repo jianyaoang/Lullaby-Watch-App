@@ -22,6 +22,23 @@ class LullabySettingInterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
+        if NSUserDefaults.standardUserDefaults().objectForKey("hour") == nil {
+            NSUserDefaults.standardUserDefaults().setObject(22, forKey: "hour")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        if NSUserDefaults.standardUserDefaults().objectForKey("minute") == nil {
+            NSUserDefaults.standardUserDefaults().setObject(00, forKey: "minute")
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
+        
+        var hour = NSUserDefaults.standardUserDefaults().objectForKey("hour") as! Int
+        var minute = NSUserDefaults.standardUserDefaults().objectForKey("minute")as! Int
+        
+        self.setHourSlider.setValue(Float(hour))
+        self.setMinuteSlider.setValue(Float(minute))
+        
+        updateValueOfLabels()
         
     }
 
@@ -35,16 +52,32 @@ class LullabySettingInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
     
+    func updateValueOfLabels() {
+        var hour = NSUserDefaults.standardUserDefaults().objectForKey("hour") as! Int
+        var minute = NSUserDefaults.standardUserDefaults().objectForKey("minute")as! Int
+        
+        self.hourLabel.setText("\(hour)")
+        self.minuteLabel.setText("\(minute)")
+        
+        self.lullabyTimeLabel.setText("\(hour):\(minute)")
+    }
+    
     @IBAction func onSetHourSliderPressed(value: Float) {
         
-        self.hourLabel.setText("\(value)")
+        var valueOfSlider = Int(value)
+        NSUserDefaults.standardUserDefaults().setObject(valueOfSlider, forKey: "hour")
+        NSUserDefaults.standardUserDefaults().synchronize()
         
+        updateValueOfLabels()
     }
     
     @IBAction func onSetMinuteSliderPressed(value: Float) {
         
-        self.minuteLabel.setText("\(value)")
+        var valueOfSlider = Int(value)
+        NSUserDefaults.standardUserDefaults().setObject(valueOfSlider, forKey: "minute")
+        NSUserDefaults.standardUserDefaults().synchronize()
         
+        updateValueOfLabels()
     }
 
 }
